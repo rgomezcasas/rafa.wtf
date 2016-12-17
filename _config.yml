@@ -1,0 +1,13 @@
+gems:
+  - jekyll-redirect-from
+  - kramdown
+name: Rafa Gómez
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+highlighter: rouge
+permalink: /:title/
+url: "http://rafa.im"
+description: 23. Software developer at @letgo.
+excerpt_separator: <!--more-->
