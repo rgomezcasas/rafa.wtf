@@ -1,0 +1,112 @@
+.highlight {
+    color: #c5c8c6;
+    background: #1d1f21;
+    font-size: 14px;
+}
+
+.highlight .hll {}
+.highlight .err, /* Error */
+.highlight .x,   /* Other */
+.highlight .w    /* Whitespace */
+{ color: #8abeb7 }
+
+/* PUNCTUATION */
+.highlight .p,          /* Punctuation */
+.highlight .p-Indicator /* Indicator */
+{}
+
+/* COMMENT */
+.highlight .c,  /* Comment */
+.highlight .cm, /* Multiline */
+.highlight .cp, /* Preproc */
+.highlight .c1, /* Single */
+.highlight .cs  /* Special */
+{ color: #969896 }
+
+/* GENERIC */
+.highlight .g,  /* Generic */
+.highlight .gd, /* Deleted */
+.highlight .ge, /* Emph */
+.highlight .gr, /* Error */
+.highlight .gh, /* Heading */
+.highlight .gi, /* Inserted */
+.highlight .go, /* Output */
+.highlight .gp, /* Prompt */
+.highlight .gs, /* Strong */
+.highlight .gu, /* Subheading */
+.highlight .gt  /* Traceback */
+{ color: #8abeb7 }
+
+/* KEYWORD */
+.highlight .k,  /* Keyword */
+.highlight .kc, /* Constant */
+.highlight .kd, /* Declaration */
+.highlight .kn, /* Namespace */
+.highlight .kp, /* Pseudo */
+.highlight .kr, /* Reserved */
+.highlight .kt  /* Type */
+{ color: #b294bb }
+
+/* LITERAL */
+.highlight .l, 			   /* Literal */
+.highlight .ld,			   /* Date */
+.highlight .l-Scalar-Plain /* Scalar */
+{ color: #8abeb7 }
+
+/* LITERAL NUMBER */
+.highlight .m,  /* Number */
+.highlight .mf, /* Float */
+.highlight .mh, /* Hex */
+.highlight .mi, /* Integer */
+.highlight .il, /* Integer Long */
+.highlight .mo  /* Oct */
+{ color: #de935f } 
+
+/* LITERAL STRING */
+.highlight .s,  /* String */
+.highlight .sb, /* Backtick */
+.highlight .sc, /* Char */
+.highlight .s2, /* Double */
+.highlight .se, /* Escape */
+.highlight .sh, /* Heredoc */
+.highlight .si, /* Interpol */
+.highlight .sx, /* Other */
+.highlight .sr, /* Regex */
+.highlight .s1, /* Single */
+.highlight .ss  /* Symbol */
+{ color: #b5bd68 }
+.highlight .sd  /* Doc */
+{ color: #969896 }
+
+/* NAME */
+.highlight .n,  /* Name */
+.highlight .nb, /* Builtin */
+.highlight .bp, /* Builtin Pseudo */
+.highlight .nd, /* Decorator */
+.highlight .ni, /* Entity */
+.highlight .ne, /* Exception */
+.highlight .nl, /* Label */
+.highlight .nn, /* Namespace */
+.highlight .py /* Property */
+{ color: #8abeb7 }
+.highlight .na, /* Attribute */
+.highlight .no, /* Constant */
+.highlight .nf  /* Function */
+{ color: #81a2be }
+.highlight .nc, /* Class */
+.highlight .nx  /* Other */
+{ color: #f0c674 }
+.highlight .nt  /* Tag */
+{ color: #b294bb }
+
+/* NAME VARIABLE */
+.highlight .nv, /* Variable */
+.highlight .vc, /* Class */
+.highlight .vg, /* Global */
+.highlight .vi  /* Instance */
+{ color: #cc6666 }
+
+/* OPERATOR */
+.highlight .o, /* Operator */
+.highlight .ow /* Word */
+{ color: #8abeb7 }

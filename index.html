@@ -1,0 +1,25 @@
+---
+layout: default
+title: Mi blog
+description: 23. Software developer at @letgo.
+---
+
+{% for post in site.posts %}
+<div class="wrapper">
+    <div class="post">
+        <a href="{{ post.url }}">
+            <h2>{{ post.title }}</h2>
+        </a>
+        <a href="{{ post.url }}" class="date">{{ post.date | date_to_long_string }}</a>
+        {% if post.description %}
+            {{ post.description }}
+        {% else %}
+            {{ post.excerpt }}
+        {% endif %}
+    </div>
+
+    <div class="post-data">
+        <a href="{{ post.url }}">Seguir leyendo</a>
+    </div>
+</div>
+{% endfor %}
