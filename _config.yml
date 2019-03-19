@@ -9,5 +9,5 @@ kramdown:
 highlighter: rouge
 permalink: /:title/
 url: "http://rafa.im"
-description: 23. Software developer at @letgo.
+description: Software engineer at @letgo.
 excerpt_separator: <!--more-->
