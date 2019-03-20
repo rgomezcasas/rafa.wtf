@@ -543,9 +543,11 @@ footer.footer .social a:hover {
   }
 
   /*--POSTS--*/
-  .post, .post-data, .post-notes,
+  .post,
+  .post-data,
+  .post-notes,
   #disqus_thread {
-    width: 80%;
+    width: 90%;
     max-width: 640px;
     margin: 0 auto;
   }
@@ -609,6 +611,9 @@ footer.footer .social a:hover {
 
   /*--AUTHOR--*/
   /*--POST DATA--*/
+  .post p {
+    font-size: .95em;
+  }
   .post-data .extra .label {
     display: none;
   }
