@@ -259,8 +259,16 @@ header.header .social a:hover {
   transition: opacity .1s ease-out;
 }
 
+.image-link img {
+  filter: grayscale(100%);
+  -webkit-transition: filter .1s ease-out;
+  -moz-transition: filter .1s ease-out;
+  -o-transition: filter .1s ease-out;
+  -webkit-transition: -webkit-filter 100ms linear;
+}
+
 .image-link img:hover {
-  opacity: .85;
+  filter: grayscale(30%);
 }
 
 .rounded img {
@@ -516,6 +524,10 @@ footer.footer .social a:hover {
 
   .main-button {
     display: none;
+  }
+
+  .image-link img {
+    filter: grayscale(30%);
   }
 
   /*--PAGE--*/
