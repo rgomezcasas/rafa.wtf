@@ -120,7 +120,7 @@ header.header .title {
 }
 
 header.header .title:hover {
-  opacity: 1
+  opacity: 1;
 }
 
 header.header .social {
@@ -540,6 +540,7 @@ footer.footer .social a:hover {
 
   .post-data {
     margin: 15px auto 0 auto;
+    text-align: center;
   }
 
   .post-notes {
