@@ -7,10 +7,10 @@ description: Software engineer at @letgo.
 {% for post in site.posts %}
 <div class="wrapper">
     <div class="post">
-        <a href="{{ post.url }}">
+        <a href="{{ post.url }}#post-title">
             <h2>{{ post.title }}</h2>
         </a>
-        <a href="{{ post.url }}" class="date">{{ post.date | date_to_long_string }}</a>
+        <a href="{{ post.url }}#post-title" class="date">{{ post.date | date_to_long_string }}</a>
         {% if post.description %}
             {{ post.description }}
         {% else %}
@@ -19,7 +19,7 @@ description: Software engineer at @letgo.
     </div>
 
     <div class="post-data">
-        <a href="{{ post.url }}">Seguir leyendo</a>
+        <a href="{{ post.url }}#post-title">Seguir leyendo</a>
     </div>
 </div>
 {% endfor %}
