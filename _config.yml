@@ -8,6 +8,6 @@ kramdown:
   syntax_highlighter: rouge
 highlighter: rouge
 permalink: /:title/
-url: "http://rafa.im"
-description: Software engineer at @letgo.
+url: "http://rafa.wtf"
+description: Co-Founder and CTO at @CodelyTV
 excerpt_separator: <!--more-->
