@@ -6,10 +6,9 @@ disableHugoGeneratorInject = true
 defaultContentLanguage = "es"
 preserveTaxonomyNames = true
 paginate = 5
-theme = "rafa"
 
 [permalinks]
-  post = "/:filename"
+  articulos = "/:filename"
 
 [params]
   description = "Artículos, vídeos, recursos y tutoriales sobre Desarrollo Web, Frontend, Performance Web ⚡️, Javascript ☕️, React ⚛️ y CSS 🎨"

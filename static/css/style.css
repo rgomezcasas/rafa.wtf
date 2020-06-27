@@ -194,6 +194,7 @@ header.header .title {
   margin-top: .5rem;
   font-size: .8rem;
   font-weight: 600;
+  display: inline-block;
 }
 
 #sections li {
@@ -212,28 +213,6 @@ header.header .title {
 
 #sections a {
   text-decoration: none;
-}
-
-
-@media screen and (max-width: 540px) {
-  header.header {
-    text-align: center;
-    margin-bottom: 0
-  }
-
-  header.header .title {
-    margin-right: 0;
-    margin-bottom: .4em
-  }
-
-  #social {
-    float: none
-  }
-
-  #social a {
-    font-size: 1.4375rem;
-    margin-top: 1em
-  }
 }
 
 /*--MENU--*/
@@ -502,43 +481,22 @@ footer.footer #social a:hover {
 
 /*--BUTTONS--*/
 
-.button {
-  padding: 10px;
-  font-size: 13px;
-  line-height: 10px;
-  color: #fff;
-  text-transform: uppercase;
-  background-color: #212121;
-  display: inline-block;
 
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -o-border-radius: 4px;
-  border-radius: 4px;
 
-  -webkit-transition: background-color .15s ease-out;
-  -moz-transition: background-color .15s ease-out;
-  -o-transition: background-color .15s ease-out;
-  transition: background-color .15s ease-out;
-}
 
-.button:hover {
-  color: #fff;
-  background-color: #26ae90;
-}
 
-.button.inactive {
-  color: #fff;
-  background-color: #ccc;
-}
 
 /*--HORIZONTALLY RESPONSIVE--*/
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1052px) {
 
   /*--PAGE--*/
   #page {
     padding: 0;
+  }
+
+  .medium {
+    padding: 0 1rem;
   }
 
   .header {
@@ -547,6 +505,11 @@ footer.footer #social a:hover {
 
   #social {
     width: 100%;
+    margin-top: 1rem;
+  }
+
+  #sections {
+    margin-top: 1rem;
   }
 
   /*--WRAPPER--*/
@@ -584,153 +547,8 @@ footer.footer #social a:hover {
     margin: 0 auto;
   }
 
-
-}
-
-@media only screen and (max-width: 768px) {
-
-  .main-button {
-    display: none;
-  }
-
-  .image-link img {
-    filter: grayscale(30%);
-  }
-
-  /*--PAGE--*/
-  #page, .wrapper {
-    width: 100%;
-    max-width: 100%;
-    margin: 0;
-  }
-
-  /*--WRAPPER--*/
-  .wrapper {
-    padding: 2em 0;
-  }
-
-  /*--POSTS--*/
-  .post,
-  .post-data,
-  .post-notes,
-  #disqus_thread {
-    width: 90%;
-    max-width: 640px;
-    margin: 0 auto;
-  }
-
-  .post-data {
-    margin: 15px auto 0 auto;
-    text-align: center;
-  }
-
-  .post-notes {
-    margin-top: 7.5%;
-  }
-
-  /*--AUTHOR--*/
-  #author {
-    width: 100%;
-    max-width: 100%;
-    padding: 1em 0;
-    border-bottom-width: 1px;
-  }
-
 }
 
 .image-link img {
   width: 130px;
-}
-
-@media only screen and (max-width: 640px) {
-
-  /*--RESET--*/
-  * {
-    -webkit-text-size-adjust: none;
-    -moz-text-size-adjust: none;
-    text-size-adjust: none;
-  }
-
-  /*--BODY--*/
-  body {
-    font-size: 16px;
-  }
-
-  h1 {
-    font-size: 28px;
-  }
-
-  h2 {
-    font-size: 28px;
-  }
-
-  h3 {
-    font-size: 20px;
-  }
-
-  h4 {
-    font-size: 16px;
-  }
-
-  h5 {
-    font-size: 15px;
-  }
-
-  /*--AUTHOR--*/
-  /*--POST DATA--*/
-  .post p {
-    font-size: .95rem;
-  }
-
-  .post-data .extra .label {
-    display: none;
-  }
-
-  .post-data .extra .icon {
-    margin: 0 auto;
-    display: block;
-  }
-}
-
-/*--RETINA GRAPHICS--*/
-
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
-
-  /*--TOGGLE--*/
-  #toggle > span {
-    background-position: 0 -11px;
-
-    -webkit-background-size: 22px 55px;
-    -moz-background-size: 22px 55px;
-    background-size: 22px 55px;
-  }
-
-  /*--ARROWS--*/
-  .arrow {
-    background-position: 0 -5px;
-
-    -webkit-background-size: 20px 25px;
-    -moz-background-size: 20px 25px;
-    background-size: 20px 25px;
-  }
-
-  .fork {
-    background-position: 0 -22px;
-
-    -webkit-background-size: 19px 44px;
-    -moz-background-size: 19px 44px;
-    background-size: 19px 44px;
-  }
-
-  .arrow.right {
-    background-position: 0 -15px;
-  }
-
-  .arrow.dark {
-    background-position: -10px -5px;
-  }
-
-  .arrow.right.dark {
-    background-position: -10px -15px;
-  }
 }
