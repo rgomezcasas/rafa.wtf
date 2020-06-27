@@ -5,7 +5,7 @@ languageCode = "es-ES"
 disableHugoGeneratorInject = true
 defaultContentLanguage = "es"
 preserveTaxonomyNames = true
-paginate = 5
+paginate = 100
 
 [permalinks]
   articulos = "/:filename"

@@ -6,9 +6,7 @@ tags: [laravel]
 
 Es muy común querer que tu web cargue más velozmente (aunque sólo sean unas décimas) y aún lo es más, que el responsable de SEO de tu empresa te exija optimizaciones en la velocidad de carga. Una de ellas es minificar el HTML resultante.
 En Laravel esto es muy fácil, tan sencillo como pegar este [gist](https://gist.github.com/DotZecker/6786469 "Gist para minificar el HTML en Laravel 4") en `` /app/filters.php ``.
-<!--more-->
 
-<br>
 El gist contiene:
 
 ```php

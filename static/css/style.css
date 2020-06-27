@@ -70,13 +70,19 @@ em {
 }
 
 h1, h2, h3, h4, h5 {
-  margin: 0 0 .5em 0;
   color: #22292f;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 h1 {
   font-size: 1.5rem;
+  font-weight: 800;
+  margin: 0 0 .5em 0;
+}
+
+h3 {
+  font-size: 1.125rem;
+  margin: 0;
 }
 
 .quote {
@@ -376,6 +382,26 @@ header.header .title {
 }
 
 /*--POSTS--*/
+
+#page .article-list h3 a {
+  text-decoration: none;
+}
+
+#page .article-list h3 a:hover {
+  text-decoration: underline;
+}
+
+.metadata {
+  font-size: .7rem;
+  line-height: .7rem;
+  text-transform: uppercase;
+  opacity: .7;
+  font-weight: 600;
+}
+
+.article-list article {
+  margin-bottom: 1rem;
+}
 
 .post {
   width: 100%;
