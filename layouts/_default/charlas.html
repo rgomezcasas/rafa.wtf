@@ -1,0 +1,11 @@
+{{ define "main" }}
+<main class="medium article-list">
+    <h1>🗣 Charlas</h1>
+    <p>Aquí tienes las que he dado y las siguientes que voy a dar.</p>
+
+    {{ range .Paginator.Pages }}
+    {{ .Render "summary-with-location" }}
+    {{ end }}
+    {{ partial "pagination.html" . }}
+</main>
+{{ end }}

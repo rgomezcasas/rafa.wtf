@@ -9,6 +9,8 @@ paginate = 100
 
 [permalinks]
   articulos = "/:filename"
+  charlas = "/charlas/:filename"
+  etc = "/:filename"
 
 [params]
   description = "Artículos, vídeos, recursos y tutoriales sobre Desarrollo Web, Frontend, Performance Web ⚡️, Javascript ☕️, React ⚛️ y CSS 🎨"
