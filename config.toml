@@ -21,3 +21,7 @@ paginate = 100
     guessSyntax = true
     noClasses = false
     tabWidth = 2
+
+[blackfriday]
+  plainIDAnchors = true
+  hrefTargetBlank = true

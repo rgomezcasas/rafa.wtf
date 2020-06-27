@@ -6,6 +6,7 @@ has_video: true
 has_slides: true
 has_interview: false
 ---
+
 La primera charla que Javi y yo hemos dado juntos y la verdad es que ha sido todo un éxito.
 Vieneron más de 200 personas al meetup y la gente no cabía (mucha gente en el suelo sentada).
 
