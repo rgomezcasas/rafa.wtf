@@ -1,0 +1,18 @@
+{{ define "main" }}
+<main class="medium article-list">
+	<h1>✍️ Artículos</h1>
+	<p>Muy de vez en cuando (pero cada mucho) escribo algo.</p>
+
+	{{ range .Paginator.Pages }}
+	<article>
+		<div class="metadata">
+			<time>{{ .Date.Day }} de {{ index $.Site.Data.meses (printf "%d" .Date.Month) }} del {{ .Date.Year }}</time>
+			<span>·</span>
+			<span>{{.ReadingTime}} minutos de lectura</span>
+		</div>
+		<h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+	</article>
+	{{ end }}
+	{{ partial "pagination.html" . }}
+</main>
+{{ end }}

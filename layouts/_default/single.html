@@ -1,0 +1,15 @@
+{{ define "main" }}
+	<main class="medium">
+		<article>
+			<h1>{{ .Title }}</h1>
+			<div class="metadata">
+				<time>{{ .Date.Day }} de {{ index $.Site.Data.meses (printf "%d" .Date.Month) }} del {{ .Date.Year }}</time>
+				<span>·</span>
+				<span>{{.ReadingTime}} minutos de lectura</span>
+			</div>
+			<div>
+				{{ .Content }}
+			</div>
+		</article>
+	</main>
+{{ end }}
