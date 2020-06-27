@@ -6,6 +6,10 @@ body, ul, ol, li, p {
   list-style: none;
 }
 
+body {
+  padding-bottom: 1rem;
+}
+
 li {
   display: inline-block;
 }
