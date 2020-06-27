@@ -1,6 +1,7 @@
 # My personal website
 
 ## Build & Deploy
+* If it's the first time after cloning, execute `git submodule update --init --recursive`
 * To build local: `make start`
 * To deploy:
   1. Do all the changes
