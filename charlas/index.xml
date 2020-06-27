@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Charlas on Rafa Gómez Casas | Cofundador de Codely</title>
+    <link>https://rafa.wtf/charlas/</link>
+    <description>Recent content in Charlas on Rafa Gómez Casas | Cofundador de Codely</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-ES</language>
+    <lastBuildDate>Sat, 08 Feb 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://rafa.wtf/charlas/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>#WeCodeFest: 🙋 Primer día en E-Corp</title>
+      <link>https://rafa.wtf/charlas/wecodefest20/</link>
+      <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://rafa.wtf/charlas/wecodefest20/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>#CommitConf19: Live Coding DDD/ Más allá del Happy Path</title>
+      <link>https://rafa.wtf/charlas/commitconf19/</link>
+      <pubDate>Sat, 23 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://rafa.wtf/charlas/commitconf19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>#SCBCN19: Back to the basics</title>
+      <link>https://rafa.wtf/charlas/scbcn19/</link>
+      <pubDate>Sat, 05 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://rafa.wtf/charlas/scbcn19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>#PulpoCon19: Elige tu propia aventura - Pasito a Pasito Driven Development</title>
+      <link>https://rafa.wtf/charlas/pulpocon19/</link>
+      <pubDate>Sat, 07 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://rafa.wtf/charlas/pulpocon19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>#CommitConf18: Comunicación entre [micro]servicios Event-Driven Architecture</title>
+      <link>https://rafa.wtf/charlas/commitconf18/</link>
+      <pubDate>Sat, 24 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://rafa.wtf/charlas/commitconf18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>#BilboStack18: Evitando el efecto dominó en nuestros [micro]servicios</title>
+      <link>https://rafa.wtf/charlas/bilbostack18/</link>
+      <pubDate>Sat, 27 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://rafa.wtf/charlas/bilbostack18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>#SCBCN17: Testing para la vida moderna</title>
+      <link>https://rafa.wtf/charlas/scbcn17/</link>
+      <pubDate>Sat, 07 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://rafa.wtf/charlas/scbcn17/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>La Salle OpenDay 17: Antipatrones de diseño, arquitectura y testing</title>
+      <link>https://rafa.wtf/charlas/lasalle-openday-17/</link>
+      <pubDate>Thu, 15 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://rafa.wtf/charlas/lasalle-openday-17/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>#SCPNA17: Consumiendo eventos como si no hubiera un mañana</title>
+      <link>https://rafa.wtf/charlas/scpna17/</link>
+      <pubDate>Fri, 02 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://rafa.wtf/charlas/scpna17/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adademia Núria: ¿Qué hago? Un poquito sobre el futuro</title>
+      <link>https://rafa.wtf/charlas/orientacion-academia-nuria-2016/</link>
+      <pubDate>Fri, 16 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://rafa.wtf/charlas/orientacion-academia-nuria-2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>#NubeloMeetup: De código acoplado a [micro]servicios utilizando DDD</title>
+      <link>https://rafa.wtf/charlas/nubelomeetup/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://rafa.wtf/charlas/nubelomeetup/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

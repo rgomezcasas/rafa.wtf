@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Rafa Gómez Casas | Cofundador de Codely</title>
+    <link>https://rafa.wtf/tags/</link>
+    <description>Recent content in Tags on Rafa Gómez Casas | Cofundador de Codely</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-ES</language>
+    <lastBuildDate>Sat, 27 Jun 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://rafa.wtf/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>tooling</title>
+      <link>https://rafa.wtf/tags/tooling/</link>
+      <pubDate>Sat, 27 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://rafa.wtf/tags/tooling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>phonegap</title>
+      <link>https://rafa.wtf/tags/phonegap/</link>
+      <pubDate>Wed, 30 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://rafa.wtf/tags/phonegap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>usabilidad</title>
+      <link>https://rafa.wtf/tags/usabilidad/</link>
+      <pubDate>Wed, 20 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://rafa.wtf/tags/usabilidad/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sass</title>
+      <link>https://rafa.wtf/tags/sass/</link>
+      <pubDate>Mon, 04 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://rafa.wtf/tags/sass/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>laravel</title>
+      <link>https://rafa.wtf/tags/laravel/</link>
+      <pubDate>Thu, 03 Oct 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://rafa.wtf/tags/laravel/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

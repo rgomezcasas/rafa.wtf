@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Los labels y la usabilidad</title>
+	<meta name="description" content="Artículos, vídeos, recursos y tutoriales sobre Desarrollo Web, Frontend, Performance Web ⚡️, Javascript ☕️, React ⚛️ y CSS 🎨">
+	
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/css/fonts.css">
+	<link rel="stylesheet" href="/css/highlight.css">
+	
+</head>
+<body>
+	<header class="header">
+    <div class="container">
+        <a href="/" class="title font-mono">> rafa.wtf<span class="blinking">_</span></a>
+        <nav id="social">
+            <ul>
+                <li>
+                    <a href="https://twitter.com/rafaoe" class="fa fa-twitter" target="_blank"></a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/rgomezcasas" class="fa fa-linkedin-square" target="_blank"></a>
+                </li>
+                <li>
+                    <a href="https://github.com/rgomezcasas" class="fa fa-github" target="_blank"></a>
+                </li>
+                <li>
+                    <a href="https://codely.tv" target="_blank">{▸}</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="container">
+        <nav id="sections">
+            <ul>
+                <li>
+                    <a href="/articulos">Artículos</a>
+                </li>
+                <li>
+                    <a href="/charlas">Charlas</a>
+                </li>
+                <li>
+                    <a href="/proyectos">Proyectos</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+	<div id="page">
+		<div class="container">
+	        
+	<main class="medium">
+		<article>
+			<h1>Los labels y la usabilidad</h1>
+			<div class="metadata">
+				<time>20 de noviembre del 2013</time>
+				<span>·</span>
+				<span>2 minutos de lectura</span>
+			</div>
+			<div>
+				<p>Una de las cosas más engorrosas de maquetar (por lo menos para mí) son los formularios. No porque sea complejo, ni mucho menos, sino porque es una parte muy importante de la web que se suele dejar de lado.</p>
+<p>Quizás un formulario bien hecho puede incrementar la opinión del usuario sobre nuestra web, pero lo que es seguro es que un formulario mal hecho causa odio (o por lo menos rabia) hacia nuestra web.</p>
+<p>Una de las tareas que solemos (y deberiamos) hacer para incrementar la usabilidad de los formularios de nuestra web, es añadir <code>labels</code> a los textos que nos identifican los campos a clicar. De esta manera, al clicar sobre el texto el foco se nos va al campo asociado, otorgándonos una gran facilidad para rellenar el campo.</p>
+<p>Pero con este sisitema a veces puede surgir un problema: Si hay una separación entre el texto y el input, al clicar sobre ésta no pasará nada. Quizás pensemos que nadie &ldquo;es tan tonto&rdquo; como para clicar en lo blanco, pero no es así, seguramente nosotros lo hemos hecho muchas veces sin darnos cuenta (sobretodo si entramos desde dispositivos móviles, donde se requiere más precisión para clicar sobre el campo).</p>
+<p>Así que para evitar esto, lo mejor que se puede hacer, tal y como me enseñó <a href="https://twitter.com/ivan_gallego">Iván</a> (este tío es un crack), es anidar el input dentro del <code>label</code>, tal y como se muestra a continuación:</p>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">label</span> <span class="na">for</span><span class="o">=</span><span class="s">&#34;name&#34;</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">span</span><span class="p">&gt;</span>Nombre:<span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;text&#34;</span> <span class="na">name</span><span class="o">=</span><span class="s">&#34;name&#34;</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;name&#34;</span> <span class="na">placeholder</span><span class="o">=</span><span class="s">&#34;Ej. Rafael&#34;</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;</span>
+</code></pre></div><p>De esta forma conseguimos que todo el area que los engloba sea clicable y nos lleve el foco al campo que deseamos.</p>
+<p><!-- raw HTML omitted -->Además podríamos darle un padding al <code>input</code> y así aumentar el area de click<!-- raw HTML omitted --></p>
+
+			</div>
+		</article>
+	</main>
+
+		</div>
+	</div>
+	
+
+
+
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-32661667-3', 'rafa.wtf');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+</script>
+
+</body>
+</html>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rafa Gómez Casas | Cofundador de Codely</title>
+    <link>https://rafa.wtf/</link>
+    <description>Recent content on Rafa Gómez Casas | Cofundador de Codely</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-ES</language>
+    <lastBuildDate>Sat, 27 Jun 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://rafa.wtf/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cosas que uso</title>
+      <link>https://rafa.wtf/uses/</link>
+      <pubDate>Sat, 27 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://rafa.wtf/uses/</guid>
+      <description>En construcción :)</description>
+    </item>
+    
+    <item>
+      <title>#WeCodeFest: 🙋 Primer día en E-Corp</title>
+      <link>https://rafa.wtf/charlas/wecodefest20/</link>
+      <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://rafa.wtf/charlas/wecodefest20/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>#CommitConf19: Live Coding DDD/ Más allá del Happy Path</title>
+      <link>https://rafa.wtf/charlas/commitconf19/</link>
+      <pubDate>Sat, 23 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://rafa.wtf/charlas/commitconf19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>#SCBCN19: Back to the basics</title>
+      <link>https://rafa.wtf/charlas/scbcn19/</link>
+      <pubDate>Sat, 05 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://rafa.wtf/charlas/scbcn19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>#PulpoCon19: Elige tu propia aventura - Pasito a Pasito Driven Development</title>
+      <link>https://rafa.wtf/charlas/pulpocon19/</link>
+      <pubDate>Sat, 07 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://rafa.wtf/charlas/pulpocon19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>#CommitConf18: Comunicación entre [micro]servicios Event-Driven Architecture</title>
+      <link>https://rafa.wtf/charlas/commitconf18/</link>
+      <pubDate>Sat, 24 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://rafa.wtf/charlas/commitconf18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>#BilboStack18: Evitando el efecto dominó en nuestros [micro]servicios</title>
+      <link>https://rafa.wtf/charlas/bilbostack18/</link>
+      <pubDate>Sat, 27 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://rafa.wtf/charlas/bilbostack18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Phunctional</title>
+      <link>https://rafa.wtf/proyectos/phunctional/</link>
+      <pubDate>Sat, 27 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://rafa.wtf/proyectos/phunctional/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>#SCBCN17: Testing para la vida moderna</title>
+      <link>https://rafa.wtf/charlas/scbcn17/</link>
+      <pubDate>Sat, 07 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://rafa.wtf/charlas/scbcn17/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>La Salle OpenDay 17: Antipatrones de diseño, arquitectura y testing</title>
+      <link>https://rafa.wtf/charlas/lasalle-openday-17/</link>
+      <pubDate>Thu, 15 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://rafa.wtf/charlas/lasalle-openday-17/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>#SCPNA17: Consumiendo eventos como si no hubiera un mañana</title>
+      <link>https://rafa.wtf/charlas/scpna17/</link>
+      <pubDate>Fri, 02 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://rafa.wtf/charlas/scpna17/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adademia Núria: ¿Qué hago? Un poquito sobre el futuro</title>
+      <link>https://rafa.wtf/charlas/orientacion-academia-nuria-2016/</link>
+      <pubDate>Fri, 16 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://rafa.wtf/charlas/orientacion-academia-nuria-2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>#NubeloMeetup: De código acoplado a [micro]servicios utilizando DDD</title>
+      <link>https://rafa.wtf/charlas/nubelomeetup/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://rafa.wtf/charlas/nubelomeetup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cómo emular phonegap desde el navegador</title>
+      <link>https://rafa.wtf/como-emular-phonegap-desde-el-navegador/</link>
+      <pubDate>Wed, 30 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://rafa.wtf/como-emular-phonegap-desde-el-navegador/</guid>
+      <description>Una de las cosas que más molesta al estar desarrollando en Phonegap (o Apache Cordova) es tener que ir compilando y ejecutando (en nuestro emulador de Android/iOs/&amp;hellip; o directamente en nuestros terminales) cada vez que queremos ver los cambios realizados, ya que esto tarda tiempo y tiempo&amp;hellip;
+Muchos hemos ido utilizando un &amp;ldquo;truquillo&amp;rdquo; para ir viéndolo en tiempo real: Abrir el archivo index.htmldesde el navegador. Con esto podemos ir viendo los cambios que vamos realizando, pero no nos es suficiente, ya que nosotros queremos poder utilizar las api&#39;s del teléfono (queremos poder usar la geolocalización, el acelerómetro&amp;hellip;)</description>
+    </item>
+    
+    <item>
+      <title>Los labels y la usabilidad</title>
+      <link>https://rafa.wtf/los-labels-y-la-usabilidad/</link>
+      <pubDate>Wed, 20 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://rafa.wtf/los-labels-y-la-usabilidad/</guid>
+      <description>Una de las cosas más engorrosas de maquetar (por lo menos para mí) son los formularios. No porque sea complejo, ni mucho menos, sino porque es una parte muy importante de la web que se suele dejar de lado.
+Quizás un formulario bien hecho puede incrementar la opinión del usuario sobre nuestra web, pero lo que es seguro es que un formulario mal hecho causa odio (o por lo menos rabia) hacia nuestra web.</description>
+    </item>
+    
+    <item>
+      <title>Cómo organizar nuestros ficheros en Sass</title>
+      <link>https://rafa.wtf/como-organizar-nuestros-ficheros-en-sass/</link>
+      <pubDate>Mon, 04 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://rafa.wtf/como-organizar-nuestros-ficheros-en-sass/</guid>
+      <description>Mucha gente que empieza con Sass no sabe cómo organizar su código, o que existe el método @import para poder importar otros ficheros (y que se compilen todo en uno).
+Una buena estructura y organización nos pueden hacer ser mucho más productivos y veloces a la hora de hacer cualquier modificación.
+Aviso que voy a explicar estándares que se han ido implementando, pero también lo voy a mezclar con otros que yo he ido adquiriendo con la prática y que me han ayudado a ser más productivo.</description>
+    </item>
+    
+    <item>
+      <title>Minificar el HTML generado por Laravel 4</title>
+      <link>https://rafa.wtf/minificar-el-html-generado-por-laravel-4/</link>
+      <pubDate>Thu, 03 Oct 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://rafa.wtf/minificar-el-html-generado-por-laravel-4/</guid>
+      <description>Es muy común querer que tu web cargue más velozmente (aunque sólo sean unas décimas) y aún lo es más, que el responsable de SEO de tu empresa te exija optimizaciones en la velocidad de carga. Una de ellas es minificar el HTML resultante. En Laravel esto es muy fácil, tan sencillo como pegar este gist en /app/filters.php.
+El gist contiene:
+&amp;lt;?php App::after(function($request, $response) { if (App::Environment() == &amp;#39;production&amp;#39;) { if ($response instanceof Illuminate\Http\Response) { $output = $response-&amp;gt;getOriginalContent(); $filters = array( &amp;#39;/&amp;lt;!</description>
+    </item>
+    
+  </channel>
+</rss>

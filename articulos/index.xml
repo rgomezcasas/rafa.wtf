@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Articulos on Rafa Gómez Casas | Cofundador de Codely</title>
+    <link>https://rafa.wtf/articulos/</link>
+    <description>Recent content in Articulos on Rafa Gómez Casas | Cofundador de Codely</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-ES</language>
+    <lastBuildDate>Wed, 30 Apr 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://rafa.wtf/articulos/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cómo emular phonegap desde el navegador</title>
+      <link>https://rafa.wtf/como-emular-phonegap-desde-el-navegador/</link>
+      <pubDate>Wed, 30 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://rafa.wtf/como-emular-phonegap-desde-el-navegador/</guid>
+      <description>Una de las cosas que más molesta al estar desarrollando en Phonegap (o Apache Cordova) es tener que ir compilando y ejecutando (en nuestro emulador de Android/iOs/&amp;hellip; o directamente en nuestros terminales) cada vez que queremos ver los cambios realizados, ya que esto tarda tiempo y tiempo&amp;hellip;
+Muchos hemos ido utilizando un &amp;ldquo;truquillo&amp;rdquo; para ir viéndolo en tiempo real: Abrir el archivo index.htmldesde el navegador. Con esto podemos ir viendo los cambios que vamos realizando, pero no nos es suficiente, ya que nosotros queremos poder utilizar las api&#39;s del teléfono (queremos poder usar la geolocalización, el acelerómetro&amp;hellip;)</description>
+    </item>
+    
+    <item>
+      <title>Los labels y la usabilidad</title>
+      <link>https://rafa.wtf/los-labels-y-la-usabilidad/</link>
+      <pubDate>Wed, 20 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://rafa.wtf/los-labels-y-la-usabilidad/</guid>
+      <description>Una de las cosas más engorrosas de maquetar (por lo menos para mí) son los formularios. No porque sea complejo, ni mucho menos, sino porque es una parte muy importante de la web que se suele dejar de lado.
+Quizás un formulario bien hecho puede incrementar la opinión del usuario sobre nuestra web, pero lo que es seguro es que un formulario mal hecho causa odio (o por lo menos rabia) hacia nuestra web.</description>
+    </item>
+    
+    <item>
+      <title>Cómo organizar nuestros ficheros en Sass</title>
+      <link>https://rafa.wtf/como-organizar-nuestros-ficheros-en-sass/</link>
+      <pubDate>Mon, 04 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://rafa.wtf/como-organizar-nuestros-ficheros-en-sass/</guid>
+      <description>Mucha gente que empieza con Sass no sabe cómo organizar su código, o que existe el método @import para poder importar otros ficheros (y que se compilen todo en uno).
+Una buena estructura y organización nos pueden hacer ser mucho más productivos y veloces a la hora de hacer cualquier modificación.
+Aviso que voy a explicar estándares que se han ido implementando, pero también lo voy a mezclar con otros que yo he ido adquiriendo con la prática y que me han ayudado a ser más productivo.</description>
+    </item>
+    
+    <item>
+      <title>Minificar el HTML generado por Laravel 4</title>
+      <link>https://rafa.wtf/minificar-el-html-generado-por-laravel-4/</link>
+      <pubDate>Thu, 03 Oct 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://rafa.wtf/minificar-el-html-generado-por-laravel-4/</guid>
+      <description>Es muy común querer que tu web cargue más velozmente (aunque sólo sean unas décimas) y aún lo es más, que el responsable de SEO de tu empresa te exija optimizaciones en la velocidad de carga. Una de ellas es minificar el HTML resultante. En Laravel esto es muy fácil, tan sencillo como pegar este gist en /app/filters.php.
+El gist contiene:
+&amp;lt;?php App::after(function($request, $response) { if (App::Environment() == &amp;#39;production&amp;#39;) { if ($response instanceof Illuminate\Http\Response) { $output = $response-&amp;gt;getOriginalContent(); $filters = array( &amp;#39;/&amp;lt;!</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>usabilidad on Rafa Gómez Casas | Cofundador de Codely</title>
+    <link>https://rafa.wtf/tags/usabilidad/</link>
+    <description>Recent content in usabilidad on Rafa Gómez Casas | Cofundador de Codely</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-ES</language>
+    <lastBuildDate>Wed, 20 Nov 2013 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://rafa.wtf/tags/usabilidad/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Los labels y la usabilidad</title>
+      <link>https://rafa.wtf/los-labels-y-la-usabilidad/</link>
+      <pubDate>Wed, 20 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://rafa.wtf/los-labels-y-la-usabilidad/</guid>
+      <description>Una de las cosas más engorrosas de maquetar (por lo menos para mí) son los formularios. No porque sea complejo, ni mucho menos, sino porque es una parte muy importante de la web que se suele dejar de lado.
+Quizás un formulario bien hecho puede incrementar la opinión del usuario sobre nuestra web, pero lo que es seguro es que un formulario mal hecho causa odio (o por lo menos rabia) hacia nuestra web.</description>
+    </item>
+    
+  </channel>
+</rss>

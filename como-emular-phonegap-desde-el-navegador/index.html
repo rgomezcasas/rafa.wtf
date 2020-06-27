@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Cómo emular phonegap desde el navegador</title>
+	<meta name="description" content="Artículos, vídeos, recursos y tutoriales sobre Desarrollo Web, Frontend, Performance Web ⚡️, Javascript ☕️, React ⚛️ y CSS 🎨">
+	
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/css/fonts.css">
+	<link rel="stylesheet" href="/css/highlight.css">
+	
+</head>
+<body>
+	<header class="header">
+    <div class="container">
+        <a href="/" class="title font-mono">> rafa.wtf<span class="blinking">_</span></a>
+        <nav id="social">
+            <ul>
+                <li>
+                    <a href="https://twitter.com/rafaoe" class="fa fa-twitter" target="_blank"></a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/rgomezcasas" class="fa fa-linkedin-square" target="_blank"></a>
+                </li>
+                <li>
+                    <a href="https://github.com/rgomezcasas" class="fa fa-github" target="_blank"></a>
+                </li>
+                <li>
+                    <a href="https://codely.tv" target="_blank">{▸}</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="container">
+        <nav id="sections">
+            <ul>
+                <li>
+                    <a href="/articulos">Artículos</a>
+                </li>
+                <li>
+                    <a href="/charlas">Charlas</a>
+                </li>
+                <li>
+                    <a href="/proyectos">Proyectos</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+	<div id="page">
+		<div class="container">
+	        
+	<main class="medium">
+		<article>
+			<h1>Cómo emular phonegap desde el navegador</h1>
+			<div class="metadata">
+				<time>30 de abril del 2014</time>
+				<span>·</span>
+				<span>3 minutos de lectura</span>
+			</div>
+			<div>
+				<p>Una de las cosas que más molesta al estar desarrollando en Phonegap (o Apache Cordova) es tener que ir compilando y ejecutando (en nuestro emulador de Android/iOs/&hellip; o directamente en nuestros terminales) cada vez que queremos ver los cambios realizados, ya que esto tarda tiempo y tiempo&hellip;</p>
+<p>Muchos hemos ido utilizando un &ldquo;truquillo&rdquo; para ir viéndolo en tiempo real: Abrir el archivo <code>index.html</code>desde el navegador. Con esto podemos ir viendo los cambios que vamos realizando, pero no nos es suficiente, ya que nosotros queremos poder utilizar las <code>api's</code> del teléfono (queremos poder usar la geolocalización, el acelerómetro&hellip;)</p>
+<p>Pero todo problema tiene una solución, y en este caso la nuestra se llama:</p>
+<h3 id="apache-ripple">Apache Ripple</h3>
+<p><a href="http://ripple.incubator.apache.org/">Apache Ripple</a> era una <a href="https://chrome.google.com/webstore/detail/ripple-emulator-beta/geelfhphabnejjhdalkjhgipohgpdnoc">famosa extensión para el Google Chrome</a> reconvertida en un <a href="https://www.npmjs.org/package/ripple-emulator">paquete de node.js</a>. Este cambio lo hicieron para aumentar la interoperabilidad (así la gente que use Firefox, Safari o cualquier otro navegador podría utilizarlo igual).</p>
+<p>Mucha gente sigue usando la extensión en lugar del paquete npm, si estás usando phonegap o cordova versión 2 no hay problema, pero si estás usando la versión 3 esta extensión ya no es compatible (al menos sin realizar &ldquo;guarradas&rdquo;).</p>
+<p>Ripple funciona en entornos Linux y Mac y su instalación es muy fácil. Suponiendo que ya tenemos node.js y npm instalado (que si estás usando Apache Cordova o Phonegap los has de tener sí o sí), ejecutamos el siguiente comando desde nuestra terminal: <code>npm install -g ripple-emulator</code> (quizás te haga falta precederlo de un <code>sudo</code>) y ya estará instalado.</p>
+<p>Su uso también es muy sencillo, tan solo tenemos que ir a la ruta de nuestro proyecto de Apache Cordova o Phonegap y ejecutar: <code>ripple emulate --path platforms/android/assets/www</code> (ten en cuenta que vas a estar emulando la plataforma según la carpeta que elijas, en este caso, android).</p>
+<p>Al ejecutar el comando se nos abrirá una ventana en el navegador con una url similar a: <code>http://localhost:4400/?enableripple=cordova-3.0.0</code> donde podremos ver ya nuestra aplicación emulada y un seguido de operaciones a poder realizar (enviar coordenadas falsas, emular un &ldquo;shake&rdquo;&hellip;)</p>
+<p>Ten en cuenta que cuando estamos trabajando con Apache Cordova o Phonegap trabajamos sobre la ruta <code>&lt;Directorio del Proyecto&gt;/www</code> y que Ripple emula directamente sobre la carpeta de la plataforma específica, así que si queremos ver los cambios que hemos realizado debemos de ejecutar sobre el directorio de nuestro proyecto el comando <code>cordova prepare</code>(<code>phonegap prepare</code> si usamos Phonegap) y luego ir a la pestaña de nuestro navegador donde se está ejecutando el Ripple y refrescar.</p>
+<p>Este último proceso quizás es un poco tedioso (pero aun así, es infinitamente más rápido que tener que ir yendo compilando y ejecutando todo cada vez).</p>
+<p>En un próximo post explicaré cómo automatizar este último punto usando <a href="http://gulpjs.com/">gulp.js</a>, para que cada vez que hagamos una modificación en nuestro proyecto, éste se <code>auto-prepare</code>y se refresque automáticamente la pestaña del navegador.</p>
+<p><!-- raw HTML omitted -->Si alguien lo prueba en Windows y funciona, por favor, que lo comente :)<!-- raw HTML omitted --></p>
+
+			</div>
+		</article>
+	</main>
+
+		</div>
+	</div>
+	
+
+
+
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-32661667-3', 'rafa.wtf');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+</script>
+
+</body>
+</html>

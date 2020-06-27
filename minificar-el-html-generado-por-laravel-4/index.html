@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Minificar el HTML generado por Laravel 4</title>
+	<meta name="description" content="Artículos, vídeos, recursos y tutoriales sobre Desarrollo Web, Frontend, Performance Web ⚡️, Javascript ☕️, React ⚛️ y CSS 🎨">
+	
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/css/fonts.css">
+	<link rel="stylesheet" href="/css/highlight.css">
+	
+</head>
+<body>
+	<header class="header">
+    <div class="container">
+        <a href="/" class="title font-mono">> rafa.wtf<span class="blinking">_</span></a>
+        <nav id="social">
+            <ul>
+                <li>
+                    <a href="https://twitter.com/rafaoe" class="fa fa-twitter" target="_blank"></a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/rgomezcasas" class="fa fa-linkedin-square" target="_blank"></a>
+                </li>
+                <li>
+                    <a href="https://github.com/rgomezcasas" class="fa fa-github" target="_blank"></a>
+                </li>
+                <li>
+                    <a href="https://codely.tv" target="_blank">{▸}</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="container">
+        <nav id="sections">
+            <ul>
+                <li>
+                    <a href="/articulos">Artículos</a>
+                </li>
+                <li>
+                    <a href="/charlas">Charlas</a>
+                </li>
+                <li>
+                    <a href="/proyectos">Proyectos</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+	<div id="page">
+		<div class="container">
+	        
+	<main class="medium">
+		<article>
+			<h1>Minificar el HTML generado por Laravel 4</h1>
+			<div class="metadata">
+				<time>3 de octubre del 2013</time>
+				<span>·</span>
+				<span>1 minutos de lectura</span>
+			</div>
+			<div>
+				<p>Es muy común querer que tu web cargue más velozmente (aunque sólo sean unas décimas) y aún lo es más, que el responsable de SEO de tu empresa te exija optimizaciones en la velocidad de carga. Una de ellas es minificar el HTML resultante.
+En Laravel esto es muy fácil, tan sencillo como pegar este <a href="https://gist.github.com/DotZecker/6786469" title="Gist para minificar el HTML en Laravel 4">gist</a> en <code>/app/filters.php</code>.</p>
+<p>El gist contiene:</p>
+<div class="highlight"><pre class="chroma"><code class="language-php" data-lang="php"><span class="cp">&lt;?php</span>
+
+<span class="nx">App</span><span class="o">::</span><span class="na">after</span><span class="p">(</span><span class="k">function</span><span class="p">(</span><span class="nv">$request</span><span class="p">,</span> <span class="nv">$response</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="nx">App</span><span class="o">::</span><span class="na">Environment</span><span class="p">()</span> <span class="o">==</span> <span class="s1">&#39;production&#39;</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">if</span> <span class="p">(</span><span class="nv">$response</span> <span class="nx">instanceof</span> <span class="nx">Illuminate\Http\Response</span><span class="p">)</span> <span class="p">{</span>
+            <span class="nv">$output</span> <span class="o">=</span> <span class="nv">$response</span><span class="o">-&gt;</span><span class="na">getOriginalContent</span><span class="p">();</span>
+
+            <span class="nv">$filters</span> <span class="o">=</span> <span class="k">array</span><span class="p">(</span>
+                <span class="s1">&#39;/&lt;!--([^\[|(&lt;!)].*)/&#39;</span> <span class="o">=&gt;</span> <span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="c1">// Borra los comentarios HTML
+</span><span class="c1"></span>                <span class="s1">&#39;/&lt;(?&lt;!\S)\/\/\s*[^\r\n]*/&#39;</span> <span class="o">=&gt;</span> <span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="cm">/* Borra los comentarios */</span>
+                <span class="s1">&#39;/&lt;\s{2,}/&#39;</span> <span class="o">=&gt;</span> <span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="c1">// Combina los espacios
+</span><span class="c1"></span>                <span class="s1">&#39;/&lt;(\r?\n)/&#39;</span> <span class="o">=&gt;</span> <span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="c1">// Elimina los saltos de linea
+</span><span class="c1"></span>            <span class="p">);</span>
+
+            <span class="nv">$output</span> <span class="o">=</span> <span class="nx">preg_replace</span><span class="p">(</span>
+                <span class="nx">array_keys</span><span class="p">(</span><span class="nv">$filters</span><span class="p">),</span> <span class="nx">array_values</span><span class="p">(</span><span class="nv">$filters</span><span class="p">),</span> <span class="nv">$output</span>
+            <span class="p">);</span>
+
+            <span class="nv">$response</span><span class="o">-&gt;</span><span class="na">setContent</span><span class="p">(</span><span class="nv">$output</span><span class="p">);</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">});</span>
+</code></pre></div><p><!-- raw HTML omitted -->Mi gist es un fork de <a href="https://gist.github.com/garagesocial/6059962" title="Gist para minificar el HTML en Laravel 4">éste</a> de <a href="https://gist.github.com/garagesocial">garagesocial</a>.<!-- raw HTML omitted --></p>
+
+			</div>
+		</article>
+	</main>
+
+		</div>
+	</div>
+	
+
+
+
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-32661667-3', 'rafa.wtf');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+</script>
+
+</body>
+</html>
