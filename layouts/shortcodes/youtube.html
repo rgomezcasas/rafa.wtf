@@ -1,0 +1,8 @@
+{{ $id := .Get "id" }}
+<div class='youtube-container' style='width: 100%; margin: 0 auto; padding: 0;'>
+    <div class='youtube-iframe' style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+        <lite-youtube videoid='{{ $id }}' style="background-image: url('https://i.ytimg.com/vi/{{ $id }}/maxresdefault.jpg');">
+            <div class="lty-playbtn"></div>
+        </lite-youtube>
+    </div>
+</div>
