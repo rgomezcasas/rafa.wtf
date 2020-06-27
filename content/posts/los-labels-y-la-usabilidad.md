@@ -1,10 +1,7 @@
 ---
-identifier: 3
-layout: post
-title: "Los labels y la usabilidad"
-tags: usabilidad
-redirect_from:
-  - /blog/p/los-labels-y-la-usabilidad/
+title: Los labels y la usabilidad
+date: "2013-11-20"
+tags: [usabilidad]
 ---
 
 Una de las cosas más engorrosas de maquetar (por lo menos para mí) son los formularios. No porque sea complejo, ni mucho menos, sino porque es una parte muy importante de la web que se suele dejar de lado.

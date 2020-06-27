@@ -1,10 +1,7 @@
 ---
-identifier: 4
-layout: post
-title: "Cómo emular phonegap desde el navegador"
-tags: phonegap
-redirect_from:
-  - /blog/p/como-emular-phonegap-desde-el-navegador/
+title: Cómo emular phonegap desde el navegador
+date: "2014-04-30"
+tags: [phonegap]
 ---
 
 Una de las cosas que más molesta al estar desarrollando en Phonegap (o Apache Cordova) es tener que ir compilando y ejecutando (en nuestro emulador de Android/iOs/... o directamente en nuestros terminales) cada vez que queremos ver los cambios realizados, ya que esto tarda tiempo y tiempo...

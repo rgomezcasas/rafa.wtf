@@ -1,10 +1,7 @@
 ---
-identifier: 1
-layout: post
-title: "Minificar el HTML generado por Laravel 4"
-tags: laravel
-redirect_from:
-  - /blog/p/minificar-el-html-generado-por-laravel-4/
+title: Minificar el HTML generado por Laravel 4
+date: "2013-10-03"
+tags: [laravel]
 ---
 
 Es muy común querer que tu web cargue más velozmente (aunque sólo sean unas décimas) y aún lo es más, que el responsable de SEO de tu empresa te exija optimizaciones en la velocidad de carga. Una de ellas es minificar el HTML resultante.

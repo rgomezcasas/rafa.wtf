@@ -1,10 +1,7 @@
 ---
-identifier: 2
-layout: post
-title: "Cómo organizar nuestros ficheros en Sass"
-tags: sass
-redirect_from:
-  - /blog/p/como-organizar-nuestros-ficheros-en-sass/
+title: Cómo organizar nuestros ficheros en Sass
+date: "2013-11-04"
+tags: [sass]
 ---
 
 Mucha gente que empieza con Sass no sabe cómo organizar su código, o que existe el método `@import` para poder importar otros ficheros (y que se compilen todo en uno).

@@ -1,0 +1,22 @@
+baseURL = "https://rafa.wtf/"
+title = "Rafa Gómez Casas | Cofundador de Codely"
+languageCode = "es-ES"
+
+disableHugoGeneratorInject = true
+defaultContentLanguage = "es"
+preserveTaxonomyNames = true
+paginate = 5
+theme = "rafa"
+
+[permalinks]
+  post = "/:filename"
+
+[params]
+  description = "Artículos, vídeos, recursos y tutoriales sobre Desarrollo Web, Frontend, Performance Web ⚡️, Javascript ☕️, React ⚛️ y CSS 🎨"
+  image = "/favicon/apple-touch-icon.png"
+
+[markup]
+  [markup.highlight]
+    guessSyntax = true
+    noClasses = false
+    tabWidth = 2
