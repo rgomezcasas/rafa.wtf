@@ -1,7 +1,0 @@
-<article>
-    <div class="metadata">
-        <span>{{.Params.location}},</span>
-        <time>{{ .Date.Day }} de {{ index $.Site.Data.meses (printf "%d" .Date.Month) }} del {{ .Date.Year }}</time>
-    </div>
-    <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
-</article>
