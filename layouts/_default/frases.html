@@ -6,7 +6,9 @@
     {{ range .Paginator.Pages }}
     <article>
         <div class="metadata">
-            <span>Dicha por primera vez el</span>
+            <span>Dicha por</span>
+            <span>{{ .Params.author }}</span>
+            <span>el</span>
             <time>{{ .Date.Day }} de {{ index $.Site.Data.meses (printf "%d" .Date.Month) }} del {{ .Date.Year }}</time>
         </div>
         <h3><a href="{{ .Permalink }}">{{ .Title }}.</a></h3>
