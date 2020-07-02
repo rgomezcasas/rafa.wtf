@@ -111,6 +111,15 @@
     </item>
     
     <item>
+      <title>Los dragones para la infraestructura</title>
+      <link>https://rafa.wtf/frases/los-dragones-para-la-infraestructura/</link>
+      <pubDate>Mon, 26 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://rafa.wtf/frases/los-dragones-para-la-infraestructura/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>La Salle OpenDay 17: Antipatrones de diseño, arquitectura y testing</title>
       <link>https://rafa.wtf/charlas/lasalle-openday-17/</link>
       <pubDate>Thu, 15 Jun 2017 00:00:00 +0000</pubDate>
@@ -198,6 +207,15 @@ Aviso que voy a explicar estándares que se han ido implementando, pero también
       <description>Es muy común querer que tu web cargue más velozmente (aunque sólo sean unas décimas) y aún lo es más, que el responsable de SEO de tu empresa te exija optimizaciones en la velocidad de carga. Una de ellas es minificar el HTML resultante. En Laravel esto es muy fácil, tan sencillo como pegar este gist en /app/filters.php.
 El gist contiene:
 &amp;lt;?php App::after(function($request, $response) { if (App::Environment() == &amp;#39;production&amp;#39;) { if ($response instanceof Illuminate\Http\Response) { $output = $response-&amp;gt;getOriginalContent(); $filters = array( &amp;#39;/&amp;lt;!</description>
+    </item>
+    
+    <item>
+      <title>El mejor código es el no escrito</title>
+      <link>https://rafa.wtf/frases/el-mejor-codigo-es-el-no-escrito/</link>
+      <pubDate>Wed, 30 May 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://rafa.wtf/frases/el-mejor-codigo-es-el-no-escrito/</guid>
+      <description></description>
     </item>
     
   </channel>
