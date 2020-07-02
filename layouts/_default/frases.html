@@ -1,0 +1,17 @@
+{{ define "main" }}
+<main class="medium article-list">
+    <h1>🎓 Frases de programación</h1>
+    <p>Frases o refranes de programación que se me ocurren o que escucho y me gustan.</p>
+
+    {{ range .Paginator.Pages }}
+    <article>
+        <div class="metadata">
+            <span>Dicha por primera vez el</span>
+            <time>{{ .Date.Day }} de {{ index $.Site.Data.meses (printf "%d" .Date.Month) }} del {{ .Date.Year }}</time>
+        </div>
+        <h3><a href="{{ .Permalink }}">{{ .Title }}.</a></h3>
+    </article>
+    {{ end }}
+    {{ partial "pagination.html" . }}
+</main>
+{{ end }}

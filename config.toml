@@ -8,8 +8,9 @@ preserveTaxonomyNames = true
 paginate = 100
 
 [permalinks]
-  articulos = "/:filename"
   charlas = "/charlas/:filename"
+  frases = "/frases/:filename"
+  articulos = "/:filename"
   etc = "/:filename"
 
 [params]
