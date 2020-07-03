@@ -3,17 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://rafa.wtf/frases/</loc>
+    <lastmod>2020-07-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rafa.wtf/frases/los-fallos-de-seguridad-son-colo-las-almorranas/</loc>
+    <lastmod>2020-07-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rafa.wtf/</loc>
+    <lastmod>2020-07-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://rafa.wtf/uses/</loc>
     <lastmod>2020-06-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://rafa.wtf/etc/</loc>
-    <lastmod>2020-06-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rafa.wtf/</loc>
     <lastmod>2020-06-27T00:00:00+00:00</lastmod>
   </url>
   
@@ -29,11 +39,6 @@
   
   <url>
     <loc>https://rafa.wtf/frases/en-casa-del-programador-script-en-bash/</loc>
-    <lastmod>2020-02-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rafa.wtf/frases/</loc>
     <lastmod>2020-02-14T00:00:00+00:00</lastmod>
   </url>
   
