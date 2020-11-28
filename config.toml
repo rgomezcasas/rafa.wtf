@@ -15,7 +15,7 @@ paginate = 100
 
 [params]
   description = "Artículos, vídeos, recursos y tutoriales sobre Desarrollo Web, Frontend, Performance Web ⚡️, Javascript ☕️, React ⚛️ y CSS 🎨"
-  image = "/favicon/apple-touch-icon.png"
+  image = "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/320/apple/271/victory-hand_270c-fe0f.png"
 
 [markup]
   [markup.highlight]
