@@ -6,11 +6,7 @@
     <description>Recent content in Articulos on Rafa Gómez Casas | Cofundador de Codely</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ES</language>
-    <lastBuildDate>Wed, 30 Apr 2014 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://rafa.wtf/articulos/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 30 Apr 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://rafa.wtf/articulos/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cómo emular phonegap desde el navegador</title>
       <link>https://rafa.wtf/como-emular-phonegap-desde-el-navegador/</link>

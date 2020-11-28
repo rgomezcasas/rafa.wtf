@@ -6,11 +6,7 @@
     <description>Recent content in sass on Rafa Gómez Casas | Cofundador de Codely</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ES</language>
-    <lastBuildDate>Mon, 04 Nov 2013 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://rafa.wtf/tags/sass/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 04 Nov 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://rafa.wtf/tags/sass/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cómo organizar nuestros ficheros en Sass</title>
       <link>https://rafa.wtf/como-organizar-nuestros-ficheros-en-sass/</link>

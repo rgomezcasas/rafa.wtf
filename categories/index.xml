@@ -5,10 +5,6 @@
     <link>https://rafa.wtf/categories/</link>
     <description>Recent content in Categories on Rafa Gómez Casas | Cofundador de Codely</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>es-ES</language>
-    
-	<atom:link href="https://rafa.wtf/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>es-ES</language><atom:link href="https://rafa.wtf/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
